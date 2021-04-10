@@ -4,6 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Weekend1_CatGame/LevelPresentation.unity
+    guid: 5f28b3cb5e6982547afbd54589388c98
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 8fad3232cfa9e5f478ab06e58b64ead4, type: 2}
