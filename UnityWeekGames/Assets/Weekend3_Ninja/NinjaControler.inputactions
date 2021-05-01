@@ -1,0 +1,33 @@
+{
+    "name": "NinjaControler",
+    "maps": [
+        {
+            "name": "NinjaClicker",
+            "id": "3ac3b73e-89c7-4e2e-97ba-e46a8c8703e9",
+            "actions": [
+                {
+                    "name": "Target",
+                    "type": "Button",
+                    "id": "14bfe1d6-083a-4139-abbc-b92b17c90987",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "13ddf2e9-df2a-4765-8529-a044c233fc3a",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Target",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

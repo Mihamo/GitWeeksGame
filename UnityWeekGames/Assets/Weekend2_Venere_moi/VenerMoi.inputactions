@@ -1,0 +1,52 @@
+{
+    "name": "VenerMoi",
+    "maps": [
+        {
+            "name": "CameraControl",
+            "id": "d26a5e88-aaaa-43d8-af03-cc5b467be420",
+            "actions": [
+                {
+                    "name": "MousePosition",
+                    "type": "Value",
+                    "id": "fa39feb1-b3bb-4cb3-a7bb-e52705d6eadd",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MouseClick",
+                    "type": "Button",
+                    "id": "eae89b74-ace4-40a1-90bf-e9264d1cdd4e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f67d13b4-f525-4c9a-8e42-026a3a4f39d4",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "505f4084-7564-4b41-b9d3-a42d1ddd4c2b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press(behavior=2),Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
